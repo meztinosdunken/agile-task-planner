@@ -1,6 +1,6 @@
 {
   "name": "agile-task-planner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A web application for managing Agile tasks and sprints.",
   "main": "index.js",
   "scripts": {
