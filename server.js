@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Sample endpoint
 app.get('/api/tasks', (req, res) => {
-  res.json([{ id: 1, name: 'Sample Task', status: 'Pending' }]);
+  res.json([{ id: 1, name: 'Sample Task', status: 'Pending', priority: 'Low' }]);
 });
 
 io.on('connection', (socket) => {
