@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/yourusername/agile-task-planner.git"
   },
-  "author": "Your Name",
+  "author": "Your Actual Name",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
