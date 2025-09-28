@@ -1,0 +1,22 @@
+{
+  "name": "agile-task-planner",
+  "version": "1.0.0",
+  "description": "A web application for managing Agile tasks and sprints.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo 'No tests defined' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/agile-task-planner.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "socket.io": "^3.1.2",
+    "cors": "^2.8.5"
+  }
+}
