@@ -1,9 +1,9 @@
 const socket = io();
 
 // Sample function to fetch tasks
-async function fetchTasks() {
+async function fetchTasks(tasksUrl = '/api/tasks') {
     try {
-        const response = await fetch('/api/tasks');
+        const response = await fetch(tasksUrl);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
